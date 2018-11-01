@@ -1,25 +1,25 @@
-import './vendor.ts';
+import'./vendor.ts';
 
-import { NgModule, Injector } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { NgbDatepickerConfig } from '@ng-bootstrap/ng-bootstrap';
-import { Ng2Webstorage } from 'ngx-webstorage';
-import { JhiEventManager } from 'ng-jhipster';
+import {NgModule, Injector}from '@angular/core';
+import {BrowserModule}from '@angular/platform-browser';
+import {HTTP_INTERCEPTORS }from '@angular/common/http';
+import {NgbDatepickerConfig}from '@ng-bootstrap/ng-bootstrap';
+import {Ng2Webstorage}from 'ngx-webstorage';
+import {JhiEventManager}from 'ng-jhipster';
 
-import { AuthExpiredInterceptor } from './blocks/interceptor/auth-expired.interceptor';
-import { ErrorHandlerInterceptor } from './blocks/interceptor/errorhandler.interceptor';
-import { NotificationInterceptor } from './blocks/interceptor/notification.interceptor';
-import { RfbloyaltySharedModule } from 'app/shared';
-import { RfbloyaltyCoreModule } from 'app/core';
-import { RfbloyaltyAppRoutingModule } from './app-routing.module';
-import { RfbloyaltyHomeModule } from './home/home.module';
-import { RfbloyaltyAccountModule } from './account/account.module';
-import { RfbloyaltyEntityModule } from './entities/entity.module';
-import { StateStorageService } from 'app/core/auth/state-storage.service';
+import {AuthExpiredInterceptor} from './blocks/interceptor/auth-expired.interceptor';
+import {ErrorHandlerInterceptor}from './blocks/interceptor/errorhandler.interceptor';
+import {NotificationInterceptor}from './blocks/interceptor/notification.interceptor';
+import {RfbloyaltySharedModule}from 'app/shared';
+import {RfbloyaltyCoreModule}from 'app/core';
+import {RfbloyaltyAppRoutingModule}from './app-routing.module';
+import { RfbloyaltyHomeModule}from './home/home.module';
+import {RfbloyaltyAccountModule}from './account/account.module';
+import {RfbloyaltyEntityModule}from './entities/entity.module';
+import {StateStorageService} from 'app/core/auth/state-storage.service';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
-import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
+import {JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent}from './layouts';
 
 @NgModule({
     imports: [

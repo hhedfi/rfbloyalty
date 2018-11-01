@@ -1,38 +1,38 @@
 {
-  "generator-jhipster": {
-    "promptValues": {
-      "packageName": "com.rfb",
-      "nativeLanguage": "fr"
-    },
-    "jhipsterVersion": "5.4.1",
-    "applicationType": "monolith",
-    "baseName": "rfbloyalty",
-    "packageName": "com.rfb",
-    "packageFolder": "com/rfb",
-    "serverPort": "8080",
-    "authenticationType": "session",
-    "cacheProvider": "ehcache",
-    "enableHibernateCache": true,
-    "websocket": false,
-    "databaseType": "sql",
-    "devDatabaseType": "h2Memory",
-    "prodDatabaseType": "mysql",
-    "searchEngine": false,
-    "messageBroker": false,
-    "serviceDiscoveryType": false,
-    "buildTool": "gradle",
-    "enableSwaggerCodegen": false,
-    "rememberMeKey": "daaf416f470ab0bbed1b55413da6a1f1fe549cb79a83be34ad1f3cbc9da6c04f7856b1f7809560f8ead4917fc0750c29c1eb",
-    "clientFramework": "angularX",
-    "useSass": true,
-    "clientPackageManager": "npm",
-    "testFrameworks": [],
-    "jhiPrefix": "jhi",
-    "enableTranslation": true,
-    "nativeLanguage": "fr",
-    "languages": [
-      "fr",
-      "en"
-    ]
-  }
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.rfb",
+            "nativeLanguage": "fr"
+        },
+        "jhipsterVersion": "5.4.1",
+        "applicationType": "monolith",
+        "baseName": "rfbloyalty",
+        "packageName": "com.rfb",
+        "packageFolder": "com/rfb",
+        "serverPort": "8080",
+        "authenticationType": "session",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "rememberMeKey": "daaf416f470ab0bbed1b55413da6a1f1fe549cb79a83be34ad1f3cbc9da6c04f7856b1f7809560f8ead4917fc0750c29c1eb",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "enableTranslation": true,
+        "nativeLanguage": "fr",
+        "languages": [
+            "fr",
+            "en"
+        ]
+    }
 }

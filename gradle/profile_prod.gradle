@@ -35,7 +35,7 @@ war {
     webAppDirName = 'build/www/'
 }
 
-task copyIntoStatic (type: Copy) {
+task copyIntoStatic(type: Copy) {
     from 'build/www/'
     into 'build/resources/main/static'
 }
